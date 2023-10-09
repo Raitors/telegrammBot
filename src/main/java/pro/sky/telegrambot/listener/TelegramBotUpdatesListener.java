@@ -68,7 +68,7 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
         });
         return UpdatesListener.CONFIRMED_UPDATES_ALL;
     }
-
+//
 
     @Scheduled(fixedDelay = 60_000L)
     public void schedule() {
